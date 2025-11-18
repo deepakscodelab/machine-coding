@@ -1,0 +1,21 @@
+.tab-container {
+  display: flex;
+  /* justify-content: center; */
+}
+.tab {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab-body {
+  display: flex;
+  border: 1px solid black;
+  padding: 5px;
+  height: 200px;
+}
+.error{
+  color: red;
+  display: block;
+}

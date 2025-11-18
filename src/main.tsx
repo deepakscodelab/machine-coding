@@ -6,6 +6,7 @@ const App = React.lazy(() => import("./App"));
 const Pagination = React.lazy(() => import("./components/Pagination"));
 const TodoList = React.lazy(() => import("./components/TodoList"));
 const ProgressBar = React.lazy(() => import("./components/Progressbar"));
+const TabForm = React.lazy(() => import("./components/TabForm"));
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="/pagination" element={<Pagination />} />
           <Route path="/todo" element={<TodoList />} />
           <Route path="/progressbar" element={<ProgressBar />} />
+          <Route path="/tabform" element={<TabForm />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
