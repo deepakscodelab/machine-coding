@@ -7,6 +7,7 @@ const Pagination = React.lazy(() => import("./components/Pagination"));
 const TodoList = React.lazy(() => import("./components/TodoList"));
 const ProgressBar = React.lazy(() => import("./components/Progressbar"));
 const TabForm = React.lazy(() => import("./components/TabForm"));
+const Autocomplete = React.lazy(() => import("./components/Autocomplete"));
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="/todo" element={<TodoList />} />
           <Route path="/progressbar" element={<ProgressBar />} />
           <Route path="/tabform" element={<TabForm />} />
+          <Route path="/autocomplete" element={<Autocomplete />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

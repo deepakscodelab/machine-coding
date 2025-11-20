@@ -1,0 +1,29 @@
+.autocomplete {
+  text-align: center;
+}
+
+.search-input {
+  margin: 5px;
+  width: 400px;
+}
+
+.result-container {
+  width: 400px;
+  border: 1px solid;
+  margin: auto;
+  padding: 5px;
+  text-align: left;
+  max-height: 500px;
+  overflow-y: scroll;
+  /* overflow: auto; */
+}
+
+.result {
+  display: block;
+  padding: 5px;
+}
+
+.result:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
