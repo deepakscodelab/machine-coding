@@ -1,0 +1,15 @@
+.according{
+    width: 500px;
+}
+.accordion-list{
+    background-color: aliceblue;
+}
+.accordion-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 2px solid;
+    width: 500px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
