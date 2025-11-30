@@ -9,6 +9,9 @@ const ProgressBar = React.lazy(() => import("./components/Progressbar"));
 const TabForm = React.lazy(() => import("./components/TabForm"));
 const Autocomplete = React.lazy(() => import("./components/Autocomplete"));
 const Accordion = React.lazy(() => import("./components/Accordion"));
+const Stopwatch = React.lazy(() => import("./components/Stopwatch"));
+const ImageCarousel = React.lazy(() => import("./components/ImageCarousel"));
+const FileExplorer = React.lazy(() => import("./components/FileExplorer"));
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -22,6 +25,9 @@ createRoot(document.getElementById("root")!).render(
           <Route path="/tabform" element={<TabForm />} />
           <Route path="/autocomplete" element={<Autocomplete />} />
           <Route path="/accordion" element={<Accordion />} />
+          <Route path="/stopwatch" element={<Stopwatch />} />
+          <Route path="/carousel" element={<ImageCarousel />} />
+          <Route path="/file-explorer" element={<FileExplorer />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
